@@ -1,96 +1,102 @@
-Time-Management — Simple Static Web Project
+# Time-Management — Static Web Project
 
-A small static web project for time-management / clock functionality. Includes two HTML pages and supporting CSS/JS.
-This is a college exam project made in 1 hour.
+> **A simple time-display/time-management website built using HTML, CSS, and JavaScript.**  
+> ** This is a college exam project made in 1 hour.**
 
-Table of Contents
+---
 
-Project Overview
+##  1. Project Overview
+This project is a minimal, front-end-only time-management tool consisting of two HTML pages.  
+It displays the current time and uses JavaScript for simple functionality.  
+The project was created quickly for an exam, so the structure is intentionally simple.
 
-Files in this repo
+---
 
-Requirements
+##  2. Files Included
 
-How to run (locally)
+### **Main Files**
+- `index.html` — Main landing page  
+- `time.html` — Time display page  
+- `style.css` — Page styling  
+- `script.js` — JavaScript functionality  
 
-Notes & recommendations
+### **Optional Folder**
+```
+assets/
+└── images, icons, fonts (if added later)
+```
 
-Development & contribution
+---
 
-Suggested repository structure
+## ⚙️ 3. Requirements
 
-License
+### **Required**
+- Any modern browser (Chrome, Firefox, Edge)
 
-Project Overview
+### **Optional**
+- Python (only for local server testing)
 
-This repository contains a simple time-management web project implemented using plain HTML, CSS, and JavaScript.
+---
 
-The project was created as a college exam submission and completed within 1 hour, so the design and code are intentionally minimal and straightforward.
+##  4. How to Run the Project
 
-It is fully client-side and works by simply opening the HTML files in any browser.
+### **Method A — Open Directly**
+Simply double-click:
 
-Files in this repo
+```
+index.html
+```
 
-index.html — Main landing page / UI.
+Your browser will open the site instantly.
 
-time.html — Secondary time display page.
+---
 
-script.js — JavaScript logic for time features and interactions.
+### **Method B — Run with Local Server (Recommended)**
 
-style.css — Styling for layout and visuals.
-
-Requirements
-
-No special setup required.
-You only need:
-
-A modern browser (Chrome / Firefox / Edge / Safari)
-
-(Optional) A simple local server for cleaner testing
-
-How to run (locally)
-Method 1 — Easiest
-
-Just open index.html by double-clicking it.
-
-Method 2 — Run with a local server
-
-Recommended if you want consistent behaviour:
-
+#### Step 1 — Start server:
+```bash
 python -m http.server 8000
+```
 
-
-Then open:
-
+#### Step 2 — Visit in browser:
+```
 http://localhost:8000/
+```
 
-Notes & recommendations
+---
 
-This is an exam-time project, so you can improve UI/UX later.
+##  5. Features
 
-Add comments inside script.js if you continue development.
+### ✔ Basic Features
+- Real-time clock display  
+- Very lightweight  
+- Easy to modify and understand  
 
-You can deploy the project using GitHub Pages for a live demo.
+### ✔ Technical Features
+- Pure HTML, CSS, and JavaScript  
+- No frameworks  
+- Works offline  
 
-No backend or external library is used.
+---
 
-Development & contribution
+##  6. Project Structure
 
-If you want others to contribute:
+```
+Time-Management/
+│
+├── index.html
+├── time.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-Fork the repo
+---
 
-Create a new branch (feature/<name>)
+##  7. Notes & Recommendations
+- Built in **1 hour** for an exam, so improvements can be made.  
+- You can expand it into a timer, stopwatch, or full productivity tracker.  
+- Great starting point for learning front-end basics.
 
-Make changes and test locally
+---
 
-Open a pull request
-
-Suggested repository structure
-/
-├─ README.md
-├─ index.html
-├─ time.html
-├─ script.js
-├─ style.css
-└─ assets/         # optional
