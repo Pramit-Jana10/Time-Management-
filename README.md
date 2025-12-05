@@ -28,7 +28,7 @@ assets/
 
 ---
 
-## ⚙️ 3. Requirements
+##  3. Requirements
 
 ### **Required**
 - Any modern browser (Chrome, Firefox, Edge)
