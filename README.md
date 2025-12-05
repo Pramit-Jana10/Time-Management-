@@ -1,7 +1,7 @@
 # Time-Management — Static Web Project
 
 > **A simple time-display/time-management website built using HTML, CSS, and JavaScript.**  
-> ** This is a college exam project made in 1 hour.**
+>  This is a college exam project made in 1 hour.
 
 ---
 
@@ -67,12 +67,12 @@ http://localhost:8000/
 
 ##  5. Features
 
-### ✔ Basic Features
+###  Basic Features
 - Real-time clock display  
 - Very lightweight  
 - Easy to modify and understand  
 
-### ✔ Technical Features
+###  Technical Features
 - Pure HTML, CSS, and JavaScript  
 - No frameworks  
 - Works offline  
